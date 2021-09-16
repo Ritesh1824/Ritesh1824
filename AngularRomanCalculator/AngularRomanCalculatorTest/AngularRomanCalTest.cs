@@ -1,3 +1,4 @@
+using AngularRomanCalculator.Controllers;
 using AngularRomanCalculator.Models;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -8,6 +9,8 @@ namespace AngularRomanCalculatorTest
     {
         RomanCalHelper romanCalHelper = new RomanCalHelper();
         DecimalCalHelper decimalCalHelper = new DecimalCalHelper();
+        RomanCalController romanCalController = new RomanCalController();
+        DecimalCalController decimalCalController = new DecimalCalController();
         [TestMethod]
         public void Test_AddDeciaml_ForInt()
         {          
@@ -67,6 +70,28 @@ namespace AngularRomanCalculatorTest
             string num2 = "M";
 
             string actual = romanCalHelper.addRoman(num1, num2);
+            Assert.AreEqual(excepted, actual);
+        }
+
+        [TestMethod]
+        public void Test_RomanCalController()
+        {
+            string excepted = "XV";
+            string num1 = "V";
+            string num2 = "X";
+
+            string actual = romanCalController.addRomanNum(num1,num2).Value;
+            Assert.AreEqual(excepted, actual);
+        }
+
+        [TestMethod]
+        public void Test_DecimalCalController()
+        {
+            string excepted = "19";
+            string num1 = "5";
+            string num2 = "14";
+
+            string actual = decimalCalController.addDecimalNum(num1, num2).Value;
             Assert.AreEqual(excepted, actual);
         }
     }
