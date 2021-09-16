@@ -6296,11 +6296,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Install\\VSWorkSpace\\AngularRomanCalculator\\AngularRomanCalculatorTest\\AngularRomanCalculatorTest.csproj",
+      "projectUniqueName": "D:\\Install\\Ritesh1824_git\\AngularRomanCalculator\\AngularRomanCalculatorTest\\AngularRomanCalculatorTest.csproj",
       "projectName": "AngularRomanCalculatorTest",
-      "projectPath": "D:\\Install\\VSWorkSpace\\AngularRomanCalculator\\AngularRomanCalculatorTest\\AngularRomanCalculatorTest.csproj",
+      "projectPath": "D:\\Install\\Ritesh1824_git\\AngularRomanCalculator\\AngularRomanCalculatorTest\\AngularRomanCalculatorTest.csproj",
       "packagesPath": "C:\\Users\\rites\\.nuget\\packages\\",
-      "outputPath": "D:\\Install\\VSWorkSpace\\AngularRomanCalculator\\AngularRomanCalculatorTest\\obj\\",
+      "outputPath": "D:\\Install\\Ritesh1824_git\\AngularRomanCalculator\\AngularRomanCalculatorTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rites\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6317,8 +6317,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Install\\VSWorkSpace\\AngularRomanCalculator\\AngularRomanCalculator\\AngularRomanCalculator.csproj": {
-              "projectPath": "D:\\Install\\VSWorkSpace\\AngularRomanCalculator\\AngularRomanCalculator\\AngularRomanCalculator.csproj"
+            "D:\\Install\\Ritesh1824_git\\AngularRomanCalculator\\AngularRomanCalculator\\AngularRomanCalculator.csproj": {
+              "projectPath": "D:\\Install\\Ritesh1824_git\\AngularRomanCalculator\\AngularRomanCalculator\\AngularRomanCalculator.csproj"
             }
           }
         }

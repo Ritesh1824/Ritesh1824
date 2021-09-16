@@ -7,7 +7,7 @@ namespace AngularRomanCalculator.Models
 {
     public class DecimalCalHelper
     {
-        public static String addDeciaml(Double num1, Double num2)
+        public String addDeciaml(Double num1, Double num2)
         {
             return (num1 + num2).ToString();
         }

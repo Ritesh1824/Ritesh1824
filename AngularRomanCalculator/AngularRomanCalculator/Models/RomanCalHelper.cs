@@ -17,7 +17,7 @@ namespace AngularRomanCalculator.Models
         {'D', 500},
         {'M', 1000}
     };
-        public static String addRoman(String num1,String num2)
+        public  String addRoman(String num1,String num2)
         {
             string ans = "";
             try
@@ -26,11 +26,11 @@ namespace AngularRomanCalculator.Models
             }
             catch
             {
-                ans = "Error: Range Exceeded";
+                ans = "Error:Range Exceeded, Final Result should be <= MMMCMXCIX(3999)";
             }
             return ans;
         }
-        public static String intToRoman(int num)
+        public  String intToRoman(int num)
         {
             String ans = "";
             // storing roman values of digits from 0-9
@@ -54,14 +54,13 @@ namespace AngularRomanCalculator.Models
             }
             catch(System.IndexOutOfRangeException e)
             {
-                Console.WriteLine("Range Exceeded: It should be < 4000" + e);
+               
                 throw;
             }
-            // int number = 3549;
-            // Console.WriteLine(intToRoman(number));
+          
             return ans;
         }
-        public static int romanToInt(String roman)
+        public  int romanToInt(String roman)
         {
             int number = 0;
             for (int i = 0; i < roman.Length; i++)
